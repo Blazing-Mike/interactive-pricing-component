@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/ASSETS/style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+<header> 
+<h1 class="heading">  Simple, traffic-based pricing</h1>
+<p class="para">  Sign-up for our 30-day trial. </p>
+<p class="para">No credit card required. </p>
+</header>
+
+<div class="pricing-component">
+  <div class="pageViews">
+    <span class="js-pageViews"></span> Pageviews
+  </div>
+
+<div class="slider__container"> 
+ <div class="bar"><span class="fill js-fill"></span></div>
+  <input type="range" name="price" id="pricing-slider" max="200" min="20" value="30" class="slider__page-views" step="20">
+
+</div>
+
+<div class="pricing">
+  <span class="month js-price">$16</span>
+  /month
+</div>
+
+<div class="bililng__container">
+  <div class="month-bill"> <p class="para">Month Billing</p></div>
+  <label class="switch ml-sm">
+    <input type="checkbox" class="js-toggle" />
+    <span class="toggle round"></span>
+  </label>
+<div class="year-bill"> <p class="para">Yearly Billing</p></div>
+
+<div class="discount"><p class="discount-text">25%</p></div>
+</div>
+<br>
+<hr>
+<div class="flex__section">
+  <ul class="features-list">
+    <li class="feature"> Unlimited websites</li>
+    <li class="feature">  100% data ownership</li>
+    <li class="feature">  Email reports</li>
+   </ul>
+   
+   <button class="trail">  Start my trial</button>
+</div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="/ASSETS/script.js"></script>
+</body>
+</html>
